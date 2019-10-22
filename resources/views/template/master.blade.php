@@ -37,10 +37,10 @@
         <div class="container">
           <div id="mySidenav" class="sidenav">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="#about">About</a>
-            <a href="#event">Event</a>
-            <a href="#menu-list">Menu</a>
-            <a href="#contact">Book a table</a>
+            <a href="#about">Sobre nosotros</a>
+            <a href="#event">Nuestros trabajos</a>
+            <a href="#menu-list">Nuestros servicios</a>
+            <a href="#contact">Reserve una cita</a>
           </div>
           <!-- Use any element to open the sidenav -->
           <span onclick="openNav()" class="pull-right menu-icon">☰</span>
@@ -51,7 +51,7 @@
           <div class="inner text-center">
             <h1 class="logo-name">AGROFOR</h1>
             <h2>Sembrando Vida</h2>
-            <p>Usando vehiculos aereos no tripulados tendremos como producto minimo viable, un servicio de inspección de sanidad</p>
+            <p>Con el uso de drones ofrecemos un servicio de inspección de sanidad a tus cultivos</p>
           </div>
         </div>
       </div>
@@ -59,38 +59,56 @@
   </section>
   <!-- / banner -->
   <!--about-->
+
+
   <section id="about" class="section-padding">
     <div class="container">
       <div class="row">
         <div class="col-md-12 text-center marb-35">
-          <h1 class="header-h">Delicioso Viaje</h1>
-          <p class="header-p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-            <br>nibh euismod tincidunt ut laoreet dolore magna aliquam. </p>
+          <h1 class="header-h">Quienes somos</h1>
+
+          <p class="header-p">Implementamos un servicio con el uso de drones y camaras multiespectrales en la inspección de sanidad de cultivos
+            <br>para tener un manejo ágil e inteligente y de la misma manera favorecer la optimización de procesos de agricultura.
+            </p>
         </div>
         <div class="col-md-1"></div>
         <div class="col-md-10">
           <div class="col-md-6 col-sm-6">
             <div class="about-info">
-              <h2 class="heading">vel illum qui dolorem eum</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero impedit inventore culpa vero accusamus in nostrum dignissimos modi, molestiae. Autem iusto esse necessitatibus ex corporis earum quaerat voluptates quibusdam dicta!</p>
+            <p>
+                Nuestra empresa consiste en brindar asesoría técnica profesional especializada en unidades productivas agrícolas.
+                <br>
+                Ofrecemos servicios de asistencia técnica como actualización, capacitación y evaluación de procesos. Esto nos permite ejecutar cambios diversos junto al agricultor o productor que permitan cambiar parcial o totalmente sus procesos de agricultura.
+            </p>
+
               <div class="details-list">
                 <ul>
-                  <li><i class="fa fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-                  <li><i class="fa fa-check"></i>Quisque finibus eu lorem quis elementum</li>
-                  <li><i class="fa fa-check"></i>Vivamus accumsan porttitor justo sed </li>
-                  <li><i class="fa fa-check"></i>Curabitur at massa id tortor fermentum luctus</li>
+                  <li><i class="fa fa-check"></i>Aumentar el potencial biológico ante el aumento de la demanda y presiones de la oferta</li>
+                  <li><i class="fa fa-check"></i>Adoptar el desarrollo sostenido en sus procesos</li>
                 </ul>
               </div>
             </div>
+
+            <h2 class="heading">Misión</h2>
+            <p>
+                Dar solución certera a problemáticas de unidades agricolas, garantizando cambios estrategicos que perduren en sus procesos productivos
+            </p>
           </div>
+
           <div class="col-md-6 col-sm-6">
             <img src="img/res01.jpg" alt="" class="img-responsive">
+            <h2 class="heading">Visión</h2>
+            <p>
+                Ser una epresa líder en agricultura 4.0 que promueva e impulse la tecnificación del campo y la adopción de procesos sustentables en la agricola mexicana.
+            </p>
           </div>
         </div>
         <div class="col-md-1"></div>
       </div>
     </div>
   </section>
+
+
   <!--/about-->
   <!-- event -->
   <section id="event">
@@ -98,8 +116,8 @@
       <div class="container">
         <div class="row">
           <div class="col-xs-12 text-center" style="padding:60px;">
-            <h1 class="header-h">Up Coming events</h1>
-            <p class="header-p">Decorations 100% complete here</p>
+            <h1 class="header-h">Nuestros trabajos</h1>
+            <p class="header-p">Asesoria técnica profesional</p>
           </div>
           <div class="col-md-12" style="padding-bottom:60px;">
             <div class="item active left">
@@ -108,16 +126,17 @@
               </div>
               <div class="col-md-6 col-sm-6 details-text">
                 <div class="content-holder">
-                  <h2>Joyful party</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore eos suscipit earum voluptas aliquam recusandae, quae iure adipisci, inventore quia, quos delectus quaerat praesentium id expedita nihil illo accusantium, tempora.</p>
+                  <h2>Conoce nuestros trabajos</h2>
+                  <p>Usando cámaras multiespectrales tendremos datos individuales en formato de imágenes, que nos permitirá procesar y obtener planos bidimensionales y tridimensionales mediante software, en los que se apreciara de manera exacta los cultivos afectados por plagas y el estado de sanidad de los mismos.
+                  </p>
                   <address>
-                              <strong>Place: </strong>
+                              <strong>Lugar: </strong>
                               1612 Collins Str, Victoria 8007
                               <br>
                               <strong>Time: </strong>
                               07:30pm
                             </address>
-                  <a class="btn btn-imfo btn-read-more" href="events-details.html">Read more</a>
+                  <a class="btn btn-imfo btn-read-more" href="events-details.html">Leer más</a>
                 </div>
               </div>
             </div>
@@ -128,7 +147,7 @@
   </section>
   <!--/ event -->
   <!-- menu -->
-  <section id="menu-list" class="section-padding">
+ <!-- <section id="menu-list" class="section-padding">
     <div class="container">
       <div class="row">
         <div class="col-md-12 text-center marb-35">
@@ -245,15 +264,16 @@
       </div>
     </div>
   </section>
+-->
   <!--/ menu -->
   <!-- contact -->
   <section id="contact" class="section-padding">
     <div class="container">
       <div class="row">
         <div class="col-md-12 text-center">
-          <h1 class="header-h">Reserve Su Mesa</h1>
-          <p class="header-p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-            <br>nibh euismod tincidunt ut laoreet dolore magna aliquam. </p>
+          <h1 class="header-h">Agende una cita</h1>
+          <p class="header-p">Si usted agenda una cita con nosotros, nosotros iremos a donde se encuentran sus cultivos
+            <br>Favor de llenar los campos completos.</p>
         </div>
       </div>
       <div class="row msg-row">
@@ -263,11 +283,11 @@
               <div class="contact-phone bg-1 text-center"><span class="phone-in-talk fa fa-phone"></span></div>
             </div>
             <div class="media-body">
-              <h4 class="dark-blue regular">Phone Numbers</h4>
-              <p class="light-blue regular alt-p">+440 875369208 - <span class="contacts-sp">Phone Booking</span></p>
+              <h4 class="dark-blue regular">Teléfonos</h4>
+              <p class="light-blue regular alt-p">+52 951 270 6041 - <span class="contacts-sp">Javier Jimenez</span></p>
             </div>
           </div>
-          <div class="media-2">
+          <!--<div class="media-2">
             <div class="media-left">
               <div class="contact-email bg-14 text-center"><span class="hour-icon fa fa-clock-o"></span></div>
             </div>
@@ -278,59 +298,54 @@
                 Friday and Sunday 08:00 - 03.00
               </p>
             </div>
-          </div>
+        </div> -->
         </div>
         <div class="col-md-8 col-sm-8">
           <form action="" method="post" role="form" class="contactForm">
-            <div id="sendmessage">Your booking request has been sent. Thank you!</div>
+            <div id="sendmessage">Su solicitud de agenda a sido registrada. Gracias!</div>
             <div id="errormessage"></div>
             <div class="col-md-6 col-sm-6 contact-form pad-form">
               <div class="form-group label-floating is-empty">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <input type="text" name="name" class="form-control" id="name" placeholder="Nombre" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                 <div class="validation"></div>
               </div>
 
             </div>
             <div class="col-md-6 col-sm-6 contact-form">
               <div class="form-group">
-                <input type="date" class="form-control label-floating is-empty" name="date" id="date" placeholder="Date" data-rule="required" data-msg="This field is required" />
+                <input type="date" class="form-control label-floating is-empty" name="date" id="date" placeholder="Fecha de nacimiento" data-rule="required" data-msg="This field is required" />
                 <div class="validation"></div>
               </div>
             </div>
             <div class="col-md-6 col-sm-6 contact-form pad-form">
               <div class="form-group">
-                <input type="email" class="form-control label-floating is-empty" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                <input type="email" class="form-control label-floating is-empty" name="email" id="email" placeholder="Email" data-rule="email" data-msg="Please enter a valid email" />
                 <div class="validation"></div>
               </div>
             </div>
             <div class="col-md-6 col-sm-6 contact-form">
               <div class="form-group">
-                <input type="time" class="form-control label-floating is-empty" name="time" id="time" placeholder="Time" data-rule="required" data-msg="This field is required" />
+                <input type="text" class="form-control label-floating is-empty" name="phone" id="phone" placeholder="Teléfono" data-rule="required" data-msg="This field is required" />
                 <div class="validation"></div>
               </div>
             </div>
             <div class="col-md-6 col-sm-6 contact-form">
               <div class="form-group">
-                <input type="text" class="form-control label-floating is-empty" name="phone" id="phone" placeholder="Phone" data-rule="required" data-msg="This field is required" />
+                <input type="text" class="form-control label-floating is-empty" name="cultivo" id="cultivo" placeholder="Tamaño de tu cultivo" data-rule="required" data-msg="This field is required" />
                 <div class="validation"></div>
               </div>
             </div>
-            <div class="col-md-6 col-sm-6 contact-form">
-              <div class="form-group">
-                <input type="text" class="form-control label-floating is-empty" name="people" id="people" placeholder="People" data-rule="required" data-msg="This field is required" />
-                <div class="validation"></div>
-              </div>
-            </div>
+
             <div class="col-md-12 contact-form">
               <div class="form-group label-floating is-empty">
-                <textarea class="form-control" name="message" rows="5" rows="3" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                <textarea class="form-control" name="message" rows="5" rows="3" data-rule="required" data-msg="Por favor escribe un breve detalle de tu cultivo" placeholder="Por favor escribe un breve detalle de tu cultivo"></textarea>
                 <div class="validation"></div>
               </div>
 
             </div>
             <div class="col-md-12 btnpad">
               <div class="contacts-btn-pad">
-                <button class="contacts-btn">Reserve Su Mesa</button>
+                <button class="contacts-btn">Agende su cita</button>
               </div>
             </div>
           </form>
@@ -345,17 +360,17 @@
       <div class="row">
         <div class="col-md-offset-3 col-md-6 text-center">
           <div class="widget">
-            <h4 class="widget-title">ProOnliPc</h4>
-            <address>324 Ellte Road<br>Delhi, DL 110013</address>
+            <h4 class="widget-title">AGROFOR - Sembrando vida</h4>
+            <address>Instituto Tecnológico de Oaxaca<br></address>
             <div class="social-list">
               <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-              <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+              <a href="https://www.facebook.com/agroformx/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
             </div>
             <p class="copyright clear-float">
-              © ProOnliPc Theme. All Rights Reserved
+              © agroformx Theme. All Rights Reserved
               <div class="credits">
 
-                Designed by <a href="https://www.youtube.com/channel/UCDH0DJaVLkCDtl_YN9hhByw?view_as=subscriberP">ProOnliPc</a>
+                Designed by <a href="https://www.youtube.com/watch?v=wZZ7oFKsKzY&t=1261s">AGROFOR</a>
               </div>
             </p>
           </div>
