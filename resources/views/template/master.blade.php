@@ -35,7 +35,8 @@
       <nav class="navbar navbar-default">
           <div class="container">
           <div class="navbar-brand">
-              <a href="#"><h1>AGROFOR</h1></a>
+              <a href="">  <h1>AGROFOR </h1> </a>
+              <img src="img/logoagrofor.png"  alt="" class="img-responsive" style="max-width:10%">
           </div>
                 <div id="mySidenav" class="sidenav">
                   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -68,7 +69,7 @@
                     <div class="container">
                       <div class="row">
                         <div class="inner text-center">
-                          <h1 class="logo-name">AGROFOR</h1>
+                          <h1 class="logo-name" >AGROFOR</h1>
                           <h2>Sembrando Vida</h2>
                           <p>Con el uso de drones ofrecemos un servicio de inspección de sanidad a tus cultivos</p>
                         </div>
@@ -79,33 +80,45 @@
             </div>
 
             <div class="item">
+                    <section id="banner2">
+                      <div class="bg-color">
+                        <div class="container">
+                          <div class="row">
+                            <div class="inner text-center">
+                              <h1 class="logo-name">AGROFOR</h1>
+                              <h2>Comprometidos con el campo Oaxaqueño</h2>
+                              <p>Apoyados con la tecnología de la agricultura, nos ponemos a su disposición para salvaguardar sus cultivos</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
 
 
 
             </div>
             <div class="item">
-              <img src="img/slide.jpg" class="img-responsive" alt="">
-              <div class="carousel-caption">
-                <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.3s">
-                  <h2>Modern Design</h2>
-                </div>
-                <div class="col-md-10 col-md-offset-1">
-                  <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.6s">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                <section id="banner3">
+                  <div class="bg-color2">
+                    <div class="container">
+                      <div class="row">
+                        <div class="inner text-center">
+                        <!--  <h1 class="logo-name">AGROFOR</h1>
+                          <h2>Comprometidos con el campo Oaxaqueño</h2>
+                          <p>Apoyados con la tecnología de la agricultura, nos ponemos a su disposición para salvaguardar sus cultivos</p> -->
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                </div>
-                <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.9s">
-                  <form class="form-inline">
-                    <div class="form-group">
-                      <button type="livedemo" name="purchase" class="btn btn-primary btn-lg" required="required">Live Demo</button>
-                    </div>
-                    <div class="form-group">
-                      <button type="getnow" name="subscribe" class="btn btn-primary btn-lg" required="required">Get Now</button>
-                    </div>
-                  </form>
-                </div>
-              </div>
+                </section>
             </div>
+            <a class="left carousel-control hidden-xs" href="#carousel-slider" data-slide="prev">
+    					<i class="fa fa-angle-left"></i>
+    				</a>
+
+            <a class=" right carousel-control hidden-xs" href="#carousel-slider" data-slide="next">
+    					<i class="fa fa-angle-right"></i>
+    				</a>
           </div>
 
           <a class="left carousel-control hidden-xs" href="#carousel-slider" data-slide="prev">

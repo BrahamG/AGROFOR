@@ -22,20 +22,21 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 .navbar-brand h1 {
-	margin-top:0px;
+	margin:-5px 0 0 0;
 	padding-top:0;
 	float: left;
-	font-size: 30px;
-	color:#fff;
+	font-size: 25px;
+	color:#c3d82e;
 	text-transform:uppercase;
 }
-
+.navbar > .container .navbar-brand{
+	margin: 0;
+}
 .navbar-default {
-	background-color: #717f86;
-	border-color:#717f86;
-	height: 15px;
+	background-color: #15133f;
+	border-color:#15133f;
+	height: 10px;
 	margin-bottom: 0;
 	border: 0 solid transparent;
 	border-radius: 0;
@@ -68,6 +69,97 @@ table {
     color: #fcfcfc;
     font-size: 34px;
 }
+#banner2{
+    background: url(../img/drone.jpg) no-repeat center top;
+    background-size: cover;
+    min-height: 630px;
+}
+#banner2 h2{
+    font-family: 'Montserrat', serif;
+    font-size: 45px;
+    color: #c3d82e;
+}
+#banner2 p{
+    font-family: 'PT Sans', serif;
+    color: #fcfcfc;
+    font-size: 34px;
+}
+#banner3{
+    background: url(../img/reactivando.jpg) no-repeat center top;
+    background-size: cover;
+    min-height: 630px;
+}
+#banner3 h2{
+    font-family: 'Montserrat', serif;
+    font-size: 45px;
+    color: #c3d82e;
+}
+#banner3 p{
+    font-family: 'PT Sans', serif;
+    color: #fcfcfc;
+    font-size: 34px;
+}
+.bg-color2{
+    background-color: RGBA(0, 0, 0, 0);
+    min-height: 800px;
+}
+
+#carousel-slider {
+    position: relative;
+}
+.carousel-control.right{
+	right: 0;
+    left: auto;
+}
+.carousel-control{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 15%;
+	font-size: 20px;
+	color:
+	#fff;
+	text-align: center;
+	text-shadow: 0 1px 2px
+	rgba(0,0,0,.6);
+	opacity: .5;
+}
+#carousel-slider a i {
+	border-radius:50%;
+	font-size: 30px;
+	height: 50px;
+	padding: 10px;
+	position: absolute;
+	top: 50%;
+	width: 50px;
+	color:#65AAF0;
+	background:#65AAF0;
+	color:#fff;
+}
+#carousel-slider a i:hover {
+	background:#65AAF0;
+	color:#fff;
+	border: 1px solid #65AAF0;
+}
+
+#carousel-slider
+.carousel-control {
+	/*width:inherit;*/
+}
+#carousel-slider .carousel-control.left i {
+	left:50px;
+	top: calc(50% - 50px);
+}
+
+#carousel-slider .carousel-control.right i {
+	right: 50px;
+	top: calc(50% - 50px);
+}
+
+
+
+
 .section-padding{
     padding: 60px 0px;
 }
@@ -116,7 +208,7 @@ table {
 }
 .menu-icon
 {
-    color: #fff;
+    color: #c3d82e;
     font-size: 30px;
     margin-top: 0;
     cursor: pointer;
