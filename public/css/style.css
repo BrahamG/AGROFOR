@@ -133,14 +133,14 @@ table {
 	position: absolute;
 	top: 50%;
 	width: 50px;
-	color:#65AAF0;
-	background:#65AAF0;
+	color:#15133f;
+	/*background:#15133f;*/
 	color:#fff;
 }
 #carousel-slider a i:hover {
-	background:#65AAF0;
+	background:#15133f;
 	color:#fff;
-	border: 1px solid #65AAF0;
+	border: 1px solid #15133f;
 }
 
 #carousel-slider
