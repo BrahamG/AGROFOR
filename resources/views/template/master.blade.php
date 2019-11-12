@@ -21,36 +21,82 @@
   <meta name="twitter:title" content="">
   <meta name="twitter:description" content="">
   <meta name="twitter:image" content="">
-
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Satisfy|Bree+Serif|Candal|PT+Sans">
   <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
 
+  <script src="assets/js/modernizr.custom.js"></script>
+
 </head>
 
 <body>
 
-    <header id="header">
+     <!--<header id="header">
       <nav class="navbar navbar-default">
           <div class="container">
-          <div class="navbar-brand">
-              <a href="">  <h1>AGROFOR </h1> </a>
-              <img src="img/logoagrofor.png"  alt="" class="img-responsive" style="max-width:10%">
-          </div>
-                <div id="mySidenav" class="sidenav">
-                  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                  <a href="#about">Sobre nosotros</a>
-                  <a href="#event">Nuestros trabajos</a>
-                  <a href="#contact">Reserve una cita</a>
-                </div>
-                <!-- Use any element to open the sidenav -->
-                <span onclick="openNav()" class="pull-right menu-icon">☰</span>
-        </div>
-        <!--/.container-->
+              <div class="navbar-brand2"><a href="">
+                  <span class="leaf-icon fa fa-leaf" aria.hidden="true" style="margin: 40px 0px 0px 0px"></span>
+              </div>
+              <div class="navbar-brand"><a href="">
+                 <img src="img/preferible2.png"  alt="" class="img-responsive" style="width:160px; margin: 28px 0px 0px 0px;">
+                 </a>
+              </div>
+                    <div id="mySidenav" class="sidenav">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <a href="#about">Sobre nosotros</a>
+                        <a href="#event">Nuestros trabajos</a>
+                        <a href="#contact">Reserve una cita</a>
+                    </div>
+                    <!-- Use any element to open the sidenav
+                    <span onclick="openNav()" class="pull-right menu-icon">☰</span>
+            </div>
+        <!--/.container
       </nav>
-      <!--/nav-->
-    </header>
+      <!--/nav
+  </header>-->
+  <header>
+
+    <div id="navigation" class="navbar navbar-inverse navbar-fixed-top default" role="navigation">
+      <div class="container" style="width:1300px">
+
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+
+          <a href="">
+          <span class="leaf-icon fa fa-leaf" aria.hidden="true" style="margin-top: 17px;"> Presupuesto gratis</span>
+            </a>
+            <div class="navbar-brand" style="text-align: center"><a href="">
+               <img src="img/preferible2.png"  alt="" class="img-responsive" style="width:160px; margin: 28px 0px 0px 0px;">
+               </a>
+            </div>
+        </div>
+
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#about">Sobre nosotros</a>
+            <a href="#event">Nuestros trabajos</a>
+            <a href="#contact">Reserve una cita</a>
+        </div>
+
+        <div class="navigation">
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <nav>
+              <ul class="nav navbar-nav navbar-right">
+                <li class="current" ><a href="">Home</a></li>
+                <li><a  href="#about">About</a></li>
+                <li><a  href="#event">Works</a></li>
+                <li><a  href="#contact">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+          <!-- /.navbar-collapse -->
+        </div>
+
+      </div>
+    </div>
+
+  </header>
 
     <div class="slider">
       <div id="about-slider">
@@ -184,7 +230,6 @@
     </div>
   </section>
 
-
   <!--/about-->
   <!-- event -->
   <section id="event">
@@ -207,10 +252,10 @@
                   </p>
                   <address>
                               <strong>Lugar: </strong>
-                              1612 Collins Str, Victoria 8007
+                              Cerca de Sta. Maria
                               <br>
                               <strong>Time: </strong>
-                              07:30pm
+                              01-11-2018, 09:30pm
                             </address>
                   <a class="btn btn-imfo btn-read-more" href="events-details.html">Leer más</a>
                 </div>
