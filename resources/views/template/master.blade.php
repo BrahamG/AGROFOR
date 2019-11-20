@@ -32,29 +32,7 @@
 
 <body>
 
-     <!--<header id="header">
-      <nav class="navbar navbar-default">
-          <div class="container">
-              <div class="navbar-brand2"><a href="">
-                  <span class="leaf-icon fa fa-leaf" aria.hidden="true" style="margin: 40px 0px 0px 0px"></span>
-              </div>
-              <div class="navbar-brand"><a href="">
-                 <img src="img/preferible2.png"  alt="" class="img-responsive" style="width:160px; margin: 28px 0px 0px 0px;">
-                 </a>
-              </div>
-                    <div id="mySidenav" class="sidenav">
-                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                        <a href="#about">Sobre nosotros</a>
-                        <a href="#event">Nuestros trabajos</a>
-                        <a href="#contact">Reserve una cita</a>
-                    </div>
-                    <!-- Use any element to open the sidenav
-                    <span onclick="openNav()" class="pull-right menu-icon">☰</span>
-            </div>
-        <!--/.container
-      </nav>
-      <!--/nav
-  </header>-->
+
   <header>
 
     <div id="navigation" class="navbar navbar-inverse navbar-fixed-top default" role="navigation">
@@ -84,9 +62,9 @@
             <nav>
               <ul class="nav navbar-nav navbar-right">
                 <li class="current" ><a href="">Home</a></li>
-                <li><a  href="#about">About</a></li>
-                <li><a  href="#event">Works</a></li>
-                <li><a  href="#contact">Contact</a></li>
+                <li><a  href="#about">Sobre nosotros</a></li>
+                <li><a  href="#event">Nuestros trabajos</a></li>
+                <li><a  href="#contact">Reserve una cita</a></li>
               </ul>
             </nav>
           </div>

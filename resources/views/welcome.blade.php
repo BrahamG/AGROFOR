@@ -1,3 +1,3 @@
-@extends('template.master')
+@extends('template.masterRem')
 @section('contenido')
 @stop

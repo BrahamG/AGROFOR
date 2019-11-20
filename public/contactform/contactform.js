@@ -5,8 +5,8 @@ jQuery(document).ready(function($) {
     //Contact
     $('form.contactForm').submit(function(){
 
-        var f = $(this).find('.form-group'), 
-        ferror = false, 
+        var f = $(this).find('.form-group'),
+        ferror = false,
         emailExp = /^[^\s()<>@,;:\/]+@\w[\w\.-]+\.[a-z]{2,}$/i;
 
         f.children('input').each(function(){ // run all inputs
@@ -23,12 +23,12 @@ jQuery(document).ready(function($) {
             }else{
                 rule = rule.substr( pos+1, rule.length );
             }
-            
+
             switch( rule ){
                 case 'required':
                 if( i.val()==='' ){ ferror=ierror=true; }
                 break;
-                
+
                 case 'minlen':
                 if( i.val().length<parseInt(exp) ){ ferror=ierror=true; }
                 break;
@@ -40,7 +40,7 @@ jQuery(document).ready(function($) {
                 case 'checked':
                 if( !i.attr('checked') ){ ferror=ierror=true; }
                 break;
-                
+
                 case 'regexp':
                 exp = new RegExp(exp);
                 if( !exp.test(i.val()) ){ ferror=ierror=true; }
@@ -63,12 +63,12 @@ jQuery(document).ready(function($) {
             }else{
                 rule = rule.substr( pos+1, rule.length );
             }
-            
+
             switch( rule ){
                 case 'required':
                 if( i.val()==='' ){ ferror=ierror=true; }
                 break;
-                
+
                 case 'minlen':
                 if( i.val().length<parseInt(exp) ){ ferror=ierror=true; }
                 break;
@@ -76,8 +76,8 @@ jQuery(document).ready(function($) {
                 i.next('.validation').html( ( ierror ? (i.attr('data-msg') != undefined ? i.attr('data-msg') : 'wrong Input') : '' ) ).show('blind');
             }
         });
-        if( ferror ) return false; 
-        else var str = $(this).serialize();		
+        if( ferror ) return false;
+        else var str = $(this).serialize();
             $.ajax({
                 type: "POST",
                 url: "contactform/contactform.php",
@@ -85,18 +85,46 @@ jQuery(document).ready(function($) {
                 success: function(msg){
                    // alert(msg);
                     if(msg == 'OK') {
-                        $("#sendmessage").addClass("show");			
-                        $("#errormessage").removeClass("show");	
+                        $("#sendmessage").addClass("show");
+                        $("#errormessage").removeClass("show");
                     }
                     else {
                         $("#sendmessage").removeClass("show");
                         $("#errormessage").addClass("show");
                         $('#errormessage').html(msg);
                     }
-                    
+
                 }
             });
         return false;
     });
 
+});
+$(document).on("submit",".contactForm",function(e){
+    e.preventDefault();
+    var formu=$(this);
+    var nombreform=$(this).attr("id");
+    if(nombreform=="form"){var miurl="enviar_correo"; }
+    var formData=new FormData($("#"+nombreform+"")[0]);
+    $.ajax({
+        url:miurl,
+        type:'POST',
+        data:formData,
+        cache:false,
+        contentType:false,
+        processData:false,
+        beforeSend:function(){
+            $("#").html($("#").html());
+        },
+        success:function(data){
+            $("#").html(data);
+            $("#").attr('scr',$("#").attr('scr')+'?'+Math.random());
+            if(rs){
+                $("#"+nombreform+'').trigger("reset");
+            }
+        },
+        error:function(data){
+            alert("Error");
+        }
+    });
 });
