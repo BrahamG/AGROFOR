@@ -157,7 +157,7 @@
                               <strong>Time: </strong>
                               01-11-2018, 09:30pm
                             </address>
-                  <a class="btn btn-imfo btn-read-more" href="events-details.html">Leer más</a>
+                  <a class="btn btn-imfo btn-read-more" href="/leer">Leer más</a>
                 </div>
               </div>
             </div>
@@ -205,6 +205,10 @@
                 <div class="validation"></div>
               </div>
               <div class="form-group">
+                <input type="text" name="dir" class="form-control" id="dir" placeholder="Direccion" data-rule="minlen:8" data-msg="Please enter at least 8 chars" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
                 <input type="email" class="form-control" name="email" id="email" placeholder="Email" data-rule="email" data-msg="Please enter a valid email" />
                 <div class="validation"></div>
               </div>
@@ -224,11 +228,11 @@
           <!-- END contact form -->
         </div>
         <div class="col-md-6">
-          <h4>Busca tu localización</h4>
+          <h4>Encuentranos</h4>
           <p>View from google map</p>
           <!-- map -->
           <div id="section-map" class="clearfix">
-            <div id="google-map" data-latitude="17.076068" data-longitude="-96.744798"></div>
+            <div id="google-map" data-latitude="17.0787221" data-longitude="-96.7127452"></div>
           </div>
         </div>
       </div>
